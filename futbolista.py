@@ -12,7 +12,7 @@ class Futbolista (Persona, Deportista):
         Futbolista.listaFutbolistas(self)
     
     def __str__(self):
-        return f"Mi nombre es {super().getNombre} soy profesional en el deporte {super().getDeporte} Tengo {super().getEdad} años de edad y llevo {super().getAñosPracticando} años en el deporte"
+        return f"Mi nombre es {super().getNombre} soy profesional en el deporte\n{super().getDeporte} Tengo {super().getEdad} años de edad y llevo\n{super().getAñosPracticando} años en el deporte"
     
     def setGolesMarcados(self, golesMarcados):
         self._golesMarcados=golesMarcados
